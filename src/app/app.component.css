@@ -1,0 +1,18 @@
+.tourist{
+    border: solid 1px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.formGroup{
+    margin-bottom: 20px;
+
+    input:not([type=text]), input[type=text]{
+        width:100%;
+        border: solid 1px #ccc;
+        border-radius: 4px;
+    }
+    label{
+        width: 100%;
+    }
+}
